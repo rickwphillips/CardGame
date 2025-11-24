@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Penny
   m_EditorClassIdentifier: Assembly-CSharp::RPDeckBuilding.Card
   Name: Penny
-  cardType: 02000000
+  cardType: 000000000400000003000000
   Health: 2
   DamageMin: 0
   DamageMax: 2
-  damageType: 0300000002000000
+  damageType: 000000000400000003000000
