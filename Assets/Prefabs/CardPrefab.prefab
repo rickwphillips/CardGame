@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1314031939116985802
 RectTransform:
   m_ObjectHideFlags: 0
@@ -709,7 +709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &722406296957181462
 RectTransform:
   m_ObjectHideFlags: 0
@@ -920,7 +920,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7341639048974952678
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1123,6 +1123,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5220241517247254518}
+  - component: {fileID: 4115299831646979550}
   m_Layer: 0
   m_Name: CardPrefab
   m_TagString: Untagged
@@ -1146,6 +1147,28 @@ Transform:
   - {fileID: 5414394451177211644}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4115299831646979550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7007893469489657101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268aab754258e49a5813a7767113a7aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardDisplay
+  cardData: {fileID: 11400000, guid: dd1c2569c06cb4a20a6e7e562c79913b, type: 2}
+  cardImage: {fileID: 7952545271055738062}
+  nameText: {fileID: 5913153456905199071}
+  healthText: {fileID: 2282667495336658092}
+  damageText: {fileID: 7814506911427327296}
+  typeImages:
+  - {fileID: 4746983795401728179}
+  - {fileID: 2383509866266050436}
+  - {fileID: 7385977861003155740}
+  - {fileID: 5106158406017486119}
 --- !u!1 &7653853199179996883
 GameObject:
   m_ObjectHideFlags: 0

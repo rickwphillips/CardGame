@@ -55,9 +55,7 @@ public class CardDisplay : MonoBehaviour
           if (i < cardData.cardType.Count) {
             typeImages[i].gameObject.SetActive(true);
             typeImages[i].color = typeColors[(int)cardData.cardType[i]];
-            Debug.Log($"typeImage {i} active state: {typeImages[i].gameObject.activeSelf}, position: {typeImages[i].transform.position}");
-          } else
-          {
+          } else {
              typeImages[i].gameObject.SetActive(false);
           }
         }
