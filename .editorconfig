@@ -8,11 +8,11 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 
 [*.cs]
-# Brace formatting - keep braces on same line (K&R style)
-csharp_new_line_before_open_brace = none
-csharp_new_line_before_else = false
-csharp_new_line_before_catch = false
-csharp_new_line_before_finally = false
+# Brace formatting - Allman style (C# standard)
+csharp_new_line_before_open_brace = all
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
 
 # Indentation preferences
 csharp_indent_case_contents = true
